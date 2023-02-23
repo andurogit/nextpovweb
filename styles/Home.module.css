@@ -36,7 +36,8 @@
 
 .code {
   font-weight: 700;
-  font-family: var(--font-mono);
+  font-family: var(--font-mono), source-code-pro, Menlo, Monaco, Consolas,
+    "Courier New", monospace;
 }
 
 .grid {
@@ -97,7 +98,7 @@
 
 .center::before,
 .center::after {
-  content: '';
+  content: "";
   left: 50%;
   position: absolute;
   filter: blur(45px);
@@ -125,7 +126,7 @@
 
 .thirteen::before,
 .thirteen::after {
-  content: '';
+  content: "";
   position: absolute;
   z-index: -1;
 }
