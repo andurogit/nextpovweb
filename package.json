@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "reinstall": "del package-lock.json && npm install"
+    "reinstall": "del package-lock.json && npm cache clean --force && npm install --force"
   },
   "dependencies": {
     "@next/font": "13.1.1",
@@ -17,10 +17,10 @@
     "next": "13.0.1",
     "react": "^18.2.0",
     "react-beautiful-dnd": "13.1.0",
-    "react-custom-roulette": "^1.2.0",
+    "react-custom-roulette": "^1.1.5",
     "react-dom": "^18.2.0",
     "react-icons": "4.4.0",
-    "react-scripts": "^5.0.1",
+    "react-scripts": "^0.9.5",
     "uuid": "8.3.2"
   },
   "devDependencies": {
